@@ -230,7 +230,7 @@ We know that a conditional probability is equiavalent to <img src="https://rende
 </p>  
 Either the train is on time, or the train is delayed:  
 
-![$ = \alpha \[P(Appointment, light, no, on-time)\] + P(Appointment, light, no, delayed)$](https://render.githubusercontent.com/render/math?math=%24%20%3D%20%5Calpha%20%5BP(Appointment%2C%20light%2C%20no%2C%20on-time)%5D%20%2B%20P(Appointment%2C%20light%2C%20no%2C%20delayed)%24)
+![$ = \alpha \[P(Appointment, light, no, on-time)\ + P(Appointment, light, no, delayed)]$](https://render.githubusercontent.com/render/math?math=%24%20%3D%20%5Calpha%20%5BP(Appointment%2C%20light%2C%20no%2C%20on-time)%5D%20%2B%20P(Appointment%2C%20light%2C%20no%2C%20delayed)%24)
 
 ### Inference by Enumeration:
 
@@ -259,7 +259,7 @@ This works similar to conditional sampling except we reject the worlds where the
 
 - Start by fixing the values for evidence variables
 - Sample the non-evidence variables using conditional probabilities in the Bayesian Network
-- Eight each sample by its **likelihood**: the probability of all the evidence.
+- Weight each sample by its **likelihood**: the probability of all the evidence.
 
 ## Markov Model:
 
